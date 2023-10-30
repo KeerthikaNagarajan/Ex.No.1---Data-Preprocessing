@@ -1,6 +1,7 @@
-# Ex.No.1---Data-Preprocessing
-## AIM:
+# Ex.No-1 
+# Data Preprocessing
 
+## AIM:
 To perform Data preprocessing in a data set downloaded from Kaggle
 
 ## REQUIPMENTS REQUIRED:
@@ -10,6 +11,7 @@ To perform Data preprocessing in a data set downloaded from Kaggle
 ## RELATED THEORETICAL CONCEPT:
 
 Kaggle :
+
 Kaggle, a subsidiary of Google LLC, is an online community of data scientists and machine learning practitioners. Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges.
 
 Data Preprocessing:
@@ -24,6 +26,7 @@ Another aspect is that the data set should be formatted in such a way that more 
 
 
 ## ALGORITHM:
+
 1. Importing the libraries
 2. Importing the dataset
 3. Taking care of missing data
@@ -32,7 +35,7 @@ Another aspect is that the data set should be formatted in such a way that more 
 6. Splitting the data into test and train
 
 ## PROGRAM:
-```
+```python
 # Importing Libraries
 import pandas as pd
 import io
@@ -105,7 +108,6 @@ print("Size of X_test: ",len(X_test))
 
 ### Training the dataset
 <img width="476" alt="image" src="https://github.com/Shavedha/Ex.No.1---Data-Preprocessing/assets/93427376/cd39c2c1-ca02-4edd-83c9-7288a328f8ae">
-
 
 ## RESULT
 Thus the given data is been processed successfully.
